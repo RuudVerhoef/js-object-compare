@@ -32,7 +32,7 @@ function equalKeyValue(obj1, obj2) {
     if (typeof obj2[key] !== 'object' && obj1[key] === obj2[key]) temp[key] = obj1[key];
     if (typeof obj2[key] === 'object') temp[key] = equalKeyValue(obj1[key], obj2[key])
   }
-  return temp;
+  return clearEmpties(temp);
 }
 
 function equalKey(obj1, obj2) {
