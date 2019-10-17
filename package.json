@@ -6,6 +6,10 @@
   "scripts": {
     "test": "mocha"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RuudVerhoef/js-object-compare.git"
+  },
   "keywords": [
     "javascript",
     "object",
@@ -16,7 +20,11 @@
     "json"
   ],
   "author": "Ruud-Verhoef",
-  "license": "ISC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RuudVerhoef/js-object-compare/issues"
+  },
+  "homepage": "https://github.com/RuudVerhoef/js-object-compare#readme",
   "devDependencies": {
     "mocha": "^6.2.1"
   }
