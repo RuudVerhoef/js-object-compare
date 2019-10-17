@@ -1,4 +1,4 @@
-A package that offers functions to help with object comparison (same keys, same keys and values, same content, in A but not in B). Includes tests to show it works.
+A package that offers functions to help with object comparison (same keys, same key/values, same content, in A but not in B). Includes tests to show it works.
 
 # Installation
 
@@ -20,7 +20,7 @@ const obj2 = { block1: { num: 2 }, num: 1 };
 const obj3 = { num: 1, block1: {} };
 const obj4 = { num: 1, char: "a", block1: { num: 3 } };
 
-// returns true because both objects have the exact same fiels (it does not matter they are not in the same order).
+// returns true because both objects have the exact same key/value pairs (it does not matter they are not in the same order).
 console.log(jsoc.sameContent(obj1, obj2));
 // returns an object with block1 stripped away, because the object, at that location, does not contain anything.
 console.log(jsoc.clearEmpties(obj3));
