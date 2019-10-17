@@ -8,6 +8,7 @@ $ npm install js-object-compare
 
 # Usage
 
+<br />
 <div style="border: 1px solid black; padding: 10px; background-color: #ffdb99; color: black;">Objects are equal if: they contain the same key/value pairs. The order in which they appear does not matter.</div>
 
 ```javascript
