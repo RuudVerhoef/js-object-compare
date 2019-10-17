@@ -1,0 +1,23 @@
+{
+  "name": "js-object-compare",
+  "version": "1.0.0",
+  "description": "A package that offers functions to help with object comparison (same keys, same keys and values, same content, in A but not in B). Includes tests to show it works.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "javascript",
+    "object",
+    "objects",
+    "compare",
+    "comparing",
+    "comparison",
+    "json"
+  ],
+  "author": "Ruud-Verhoef",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^6.2.1"
+  }
+}
