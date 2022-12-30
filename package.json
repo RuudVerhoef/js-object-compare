@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/RuudVerhoef/js-object-compare#readme",
   "devDependencies": {
-    "mocha": "^6.2.1"
+    "mocha": "^10.2.0"
   }
 }
